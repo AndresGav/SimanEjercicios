@@ -1,0 +1,153 @@
+
+
+
+                           SIMAN IV - License #9150435
+                                   ETS DE GIJON                   
+
+                         Summary for Replication 1 of 5
+  
+ Project:  EJERCICIO5                           Run execution date :  19/ 7/2022
+ Analyst:  ANDRES                               Model revision date:   7/ 7/2022
+  
+ Replication ended at time      : 480.0
+  
+                            DISCRETE-CHANGE VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Final Value 
+ _______________________________________________________________________________
+  
+ UTIL BODEGUERO          .39973     1.2254     .00000     1.0000     1.0000    
+ UTIL PRACTICANTE        .13248     2.5590     .00000     1.0000     .00000    
+ UTIL REGISTRADOR        .40603     1.2095     .00000     1.0000     1.0000    
+ COLA REGISTRO           .17823     2.6382     .00000     3.0000     .00000    
+  
+                                     COUNTERS
+  
+                     Identifier                Count   Limit
+                     _________________________________________
+  
+                     ATEND BODEGUERO              85  Infinite
+                     ATEND PRACTICANTE             7  Infinite
+
+
+
+                           SIMAN IV - License #9150435
+                                   ETS DE GIJON                   
+
+                         Summary for Replication 2 of 5
+  
+ Project:  EJERCICIO5                           Run execution date :  19/ 7/2022
+ Analyst:  ANDRES                               Model revision date:   7/ 7/2022
+  
+ Replication ended at time      : 480.0
+  
+                            DISCRETE-CHANGE VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Final Value 
+ _______________________________________________________________________________
+  
+ UTIL BODEGUERO          .50948     .98122     .00000     1.0000     .00000    
+ UTIL PRACTICANTE        .04243     4.7509     .00000     1.0000     .00000    
+ UTIL REGISTRADOR        .38333     1.2683     .00000     1.0000     .00000    
+ COLA REGISTRO           .15674     3.3541     .00000     4.0000     .00000    
+  
+                                     COUNTERS
+  
+                     Identifier                Count   Limit
+                     _________________________________________
+  
+                     ATEND BODEGUERO              91  Infinite
+                     ATEND PRACTICANTE             5  Infinite
+
+
+
+                           SIMAN IV - License #9150435
+                                   ETS DE GIJON                   
+
+                         Summary for Replication 3 of 5
+  
+ Project:  EJERCICIO5                           Run execution date :  19/ 7/2022
+ Analyst:  ANDRES                               Model revision date:   7/ 7/2022
+  
+ Replication ended at time      : 480.0
+  
+                            DISCRETE-CHANGE VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Final Value 
+ _______________________________________________________________________________
+  
+ UTIL BODEGUERO          .57507     .85960     .00000     1.0000     .00000    
+ UTIL PRACTICANTE        .23740     1.7923     .00000     1.0000     .00000    
+ UTIL REGISTRADOR        .44202     1.1235     .00000     1.0000     1.0000    
+ COLA REGISTRO           .17181     2.6930     .00000     3.0000     1.0000    
+  
+                                     COUNTERS
+  
+                     Identifier                Count   Limit
+                     _________________________________________
+  
+                     ATEND BODEGUERO              92  Infinite
+                     ATEND PRACTICANTE            16  Infinite
+
+
+
+                           SIMAN IV - License #9150435
+                                   ETS DE GIJON                   
+
+                         Summary for Replication 4 of 5
+  
+ Project:  EJERCICIO5                           Run execution date :  19/ 7/2022
+ Analyst:  ANDRES                               Model revision date:   7/ 7/2022
+  
+ Replication ended at time      : 480.0
+  
+                            DISCRETE-CHANGE VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Final Value 
+ _______________________________________________________________________________
+  
+ UTIL BODEGUERO          .48421     1.0321     .00000     1.0000     .00000    
+ UTIL PRACTICANTE        .06745     3.7182     .00000     1.0000     .00000    
+ UTIL REGISTRADOR        .36107     1.3303     .00000     1.0000     1.0000    
+ COLA REGISTRO           .21447     2.7470     .00000     4.0000     .00000    
+  
+                                     COUNTERS
+  
+                     Identifier                Count   Limit
+                     _________________________________________
+  
+                     ATEND BODEGUERO              87  Infinite
+                     ATEND PRACTICANTE             4  Infinite
+
+
+
+                           SIMAN IV - License #9150435
+                                   ETS DE GIJON                   
+
+                         Summary for Replication 5 of 5
+  
+ Project:  EJERCICIO5                           Run execution date :  19/ 7/2022
+ Analyst:  ANDRES                               Model revision date:   7/ 7/2022
+  
+ Replication ended at time      : 480.0
+  
+                            DISCRETE-CHANGE VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Final Value 
+ _______________________________________________________________________________
+  
+ UTIL BODEGUERO          .50630     .98748     .00000     1.0000     .00000    
+ UTIL PRACTICANTE        .12196     2.6831     .00000     1.0000     .00000    
+ UTIL REGISTRADOR        .41458     1.1883     .00000     1.0000     .00000    
+ COLA REGISTRO           .16819     2.7545     .00000     4.0000     .00000    
+  
+                                     COUNTERS
+  
+                     Identifier                Count   Limit
+                     _________________________________________
+  
+                     ATEND BODEGUERO              90  Infinite
+                     ATEND PRACTICANTE             8  Infinite
+  
+ Run Time: 0 min(s)  3 sec(s)
+ Simulation run complete.

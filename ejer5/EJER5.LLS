@@ -1,0 +1,14 @@
+
+
+                                Space Utilization 
+          Category    Quantity  Numeric  Character
+          ----------  --------  -------  ---------
+          Elements           8     4.9%       3.0%
+          Blocks            18     5.6%       3.2%
+          Entities         100    20.0%
+          Attributes     2 per     8.0%
+                        entity
+          ----------            -------  ---------
+          TOTAL                   38.5%       6.2%
+          Maximum Size            5000      10000
+

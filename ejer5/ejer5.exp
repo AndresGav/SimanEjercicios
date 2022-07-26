@@ -1,0 +1,20 @@
+BEGIN;
+    PROJECT, EJERCICIO5, ANDRES, 7/7/2022;
+    DISCRETE, 100, 2, 3;
+    PARAMETERS: 1, 5:
+                2, 3:
+                3, 6:
+                4, 2;
+    COUNTERS:   1, ATEND BODEGUERO:
+                2, ATEND PRACTICANTE;
+    RESOURCES:  1, BODEGUERO:
+                2, PRACTICANTE:
+                3, REGISTRADOR;
+    DSTAT:      1, NR(1), UTIL BODEGUERO:
+                2, NR(2), UTIL PRACTICANTE:
+                3, NR(3), UTIL REGISTRADOR:
+                4, NQ(1), COLA REGISTRO;
+                4, NQ(2), COLA BODEGUERO;
+                4, NQ(3), COLA PRACTICANTE;
+    REPLICATE, 5, 0, 480;
+END;

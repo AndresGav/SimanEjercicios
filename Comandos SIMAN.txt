@@ -1,0 +1,6 @@
+model banco
+
+expmt banco
+
+linker banco
+siman banco

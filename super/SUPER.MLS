@@ -1,0 +1,23 @@
+      BEGIN;                                                                    
+    1         CREATE: EX(1, 1): MARK(1);                                        
+    2         QUEUE,  1;                                                        
+    3         SEIZE:  CARRO;                                                    
+    4         BRANCH, 1:                                                        
+                      WITH, 0.4, CAJA1:                                         
+                      WITH, 0.6, CAJA2;                                         
+    5 CAJA1   ASSIGN: A(2)=1;                                                   
+    6         DELAY:EX(2,2);                                                    
+    7         QUEUE, 2;                                                         
+    8         SEIZE: CAJAE;                                                     
+    9         DELAY:EX(1,3);                                                    
+   10         RELEASE: CAJAE:NEXT(SALIDA);                                      
+   11 CAJA2   ASSIGN:A(2)=2;                                                    
+   12         DELAY:EX(3,3);                                                    
+   13         QUEUE, 3;                                                         
+   14         SEIZE: CAJAN;                                                     
+   15         DELAY:UN(4,4);                                                    
+   16         RELEASE: CAJAN;                                                   
+   17 SALIDA  RELEASE: CARRO;                                                   
+   18         COUNT:A(2);                                                       
+   19         TALLY:A(2),INT(1):DISPOSE;                                        
+      END;                                                                      

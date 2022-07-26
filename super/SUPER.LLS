@@ -1,0 +1,22 @@
+
+ ----------------------------------------------------------------------
+ A linker warning was detected
+ Insufficient array space for 1000 entities specified on DISCRETE.
+ 0479:LINKER
+ ----------------------------------------------------------------------
+
+
+
+
+                                Space Utilization 
+          Category    Quantity  Numeric  Character
+          ----------  --------  -------  ---------
+          Elements           9     5.1%       2.7%
+          Blocks            19     6.0%       3.2%
+          Entities         316    63.2%
+          Attributes     2 per    25.3%
+                        entity
+          ----------            -------  ---------
+          TOTAL                   99.7%       5.8%
+          Maximum Size            5000      10000
+

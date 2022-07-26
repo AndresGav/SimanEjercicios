@@ -1,0 +1,25 @@
+      BEGIN;                                                                    
+    1     CREATE: EX(1, 1): MARK(1);                                            
+                                                                                
+    2 TECNI QUEUE,  1;                                                          
+    3     SEIZE:  TECNICO;                                                      
+    4     DELAY:  EX(2, 2);                                                     
+    5     RELEASE: TECNICO;                                                     
+                                                                                
+    6 ESTA QUEUE, 2;                                                            
+    7     SEIZE:  INSPECTOR;                                                    
+    8     DELAY:  UN(3, 3);                                                     
+    9     RELEASE: INSPECTOR;                                                   
+   10     BRANCH, 1:                                                            
+              WITH, 0.75, AJUS:                                                 
+              WITH, 0.25, EMPA;                                                 
+                                                                                
+   11 AJUS QUEUE, 3;                                                            
+   12     SEIZE:  TECNICOAJUS;                                                  
+   13     DELAY:  RN(4, 4);                                                     
+   14     RELEASE: TECNICOAJUS:NEXT(ESTA);                                      
+                                                                                
+   15 EMPA QUEUE, 4;                                                            
+   16     SEIZE:  EMPAQUE;                                                      
+   17     RELEASE: EMPAQUE:DISPOSE;                                             
+      END;                                                                      

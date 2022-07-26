@@ -1,0 +1,16 @@
+BEGIN;
+    PROJECT, EXAMEN, ANDRES, 27/7/2022;
+    DISCRETE, 1000, 2, 3;
+    PARAMETERS: 1,1:2,1:3,4:4,3,7;
+    RESOURCES:  1, Carro,80:
+                2, CajaE:
+                3, CajaN;
+    COUNTERS:   1, CantAtenCE:
+                2, CantAtenCN;
+    TALLIES:    1, TipoCPocosP:
+                2, TipoCResto;
+    DSTAT:      1, NR(1), Carros:
+                2, NQ(2), EsperaCajaE:
+                3, NQ(3), EsperaCajaN;
+    REPLICATE,  1, 0, 480;
+END;

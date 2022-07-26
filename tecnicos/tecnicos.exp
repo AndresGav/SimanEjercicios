@@ -1,0 +1,10 @@
+BEGIN;
+    PROJECT, EXAMEN, ANDRES, 27/7/2022;
+    DISCRETE,   1000, 1, 4;
+    PARAMETERS: 1, 50: 2, 40:3,15,30:4,30,10;
+    RESOURCES:  1, TECNICO, 2:
+                2, INSPECTOR:
+                3, TECNICOAJUS:
+                4, EMPAQUE; 
+    REPLICATE,1,0,480;
+END;

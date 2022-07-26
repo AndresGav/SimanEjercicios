@@ -1,0 +1,43 @@
+
+
+
+                           SIMAN IV - License #9150435
+                                   ETS DE GIJON                   
+
+                         Summary for Replication 1 of 1
+  
+ Project:  BANCO                                Run execution date :  18/ 7/2022
+ Analyst:  ESTUDIANTE                           Model revision date:   6/25/2022
+  
+ Replication ended at time      : 480.0
+  
+                                 TALLY VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Observations
+ _______________________________________________________________________________
+  
+ TPO SISTEMA VE          2.1631     .66598     .00000     7.0000         87    
+ TPO SISTEMA CA          1.2571     .82627     .00000     4.0000         35    
+ TPO SISTEMA SB          8.3651     .96411     .07108     31.932         29    
+  
+                            DISCRETE-CHANGE VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Final Value 
+ _______________________________________________________________________________
+  
+ COLA VENTANILLA         .38944E-03 50.663     .00000     1.0000     .00000    
+ COLA CAJERO             .00000         --     .00000     .00000     .00000    
+ COLA SERV BANC          .09850     3.9086     .00000     2.0000     1.0000    
+ UTIL VENTANILLA         .39167     1.5821     .00000     3.0000     .00000    
+ UTIL CAJERO             .09167     3.2759     .00000     2.0000     .00000    
+ UTIL SERV BANC          .45432     1.0959     .00000     1.0000     1.0000    
+  
+                                     COUNTERS
+  
+                     Identifier                Count   Limit
+                     _________________________________________
+  
+                     ATENDIDOS VE                 87  Infinite
+                     ATENDIDOS CA                 35  Infinite
+                     ATENDIDOS SB                 29  Infinite
+ Simulation run complete.

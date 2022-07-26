@@ -1,0 +1,31 @@
+FUNCIONAES
+
+Distribuciones aleatorias Descripción
+    EX(IP,IS) Distribución exponencial.
+    UN(IP,IS) Distribución uniforme.
+    TR(IP,IS) Distribución triangular.
+    RN(IP,IS) Distribución normal.
+    NP(IP,IS) Distribución poisson.
+    DP(IP,IS) Distribución de probabilidad discreta.
+    RL(IP,IS) Distribución lognormal.
+    GA(IP,IS) Distribución gamma.
+    BE(IP,IS) Distribución beta.
+    WE(IP,IS) Distribución Weibull.
+    CO(IP) Una constante.
+    RA(IS) Número aleatorio uniforme en el intervalo 0-1. ED(I) Distribución experimental número I.
+
+
+Distribuciones aleatorias Descripción
+    EX(IP,IS) Distribución exponencial.
+    UN(IP,IS) Distribución uniforme.
+    TR(IP,IS) Distribución triangular.
+    RN(IP,IS) Distribución normal.
+    NP(IP,IS) Distribución poisson.
+    DP(IP,IS) Distribución de probabilidad discreta.
+    RL(IP,IS) Distribución lognormal.
+    GA(IP,IS) Distribución gamma.
+    BE(IP,IS) Distribución beta.
+    WE(IP,IS) Distribución Weibull.
+    CO(IP) Una constante.
+    RA(IS) Número aleatorio uniforme en el intervalo 0-1. ED(I) Distribución experimental número I.
+

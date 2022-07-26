@@ -1,0 +1,53 @@
+      BEGIN;                                                                    
+    1     CREATE: EX(1, 1): MARK(1);                                            
+    2     ASSIGN: A(2)=2:A(3)=0: NEXT(MAQUI1);                                  
+                                                                                
+    3     CREATE: EX(2, 2): MARK(2);                                            
+    4     ASSIGN: A(2)=1:A(3)=0: NEXT(MAQUI2);                                  
+                                                                                
+    5 MAQUI1 QUEUE,1;                                                           
+    6     SEIZE: MAQUINA1;                                                      
+    7     DELAY: EX(3, 3);S                                                     
+    8     RELEASE: MAQUINA1:NEXT(MONTA);                                        
+                                                                                
+    9 MAQUI2 QUEUE,2;                                                           
+   10     SEIZE: MAQUINA2;                                                      
+   11     DELAY: EX(4, 4);                                                      
+   12     RELEASE: MAQUINA2;                                                    
+                                                                                
+   13 MONTA QUEUE,3;                                                            
+   14     SEIZE: MONTACARGA;                                                    
+   15     DELAY: EX(5, 5);                                                      
+   16     RELEASE: MONTACARGA;                                                  
+                                                                                
+   17 BRANCH, 1:                                                                
+          IF, A(2).EQ.1, MAQUI2:                                                
+          IF, A(2).EQ.2, MAQUI1:                                                
+          IF, A(2).EQ.3, MAQUI3:                                                
+          IF, A(2).EQ.4, MAQUI4:                                                
+          ELSE, MAQUI4;                                                         
+                                                                                
+   18 MAQUI3 QUEUE,4;                                                           
+   19     SEIZE: MAQUINA3;                                                      
+   20     DELAY: EX(6, 6);                                                      
+   21     RELEASE: MAQUINA3;                                                    
+                                                                                
+   22 INSPE QUEUE,5;                                                            
+   23     SEIZE: INSPECTOR;                                                     
+   24     DELAY: UN(7, 7);                                                      
+   25     RELEASE: INSPECTOR;                                                   
+   26     BRANCH, 1:                                                            
+              WITH, 0.60, EMPAQUE:                                              
+              WITH, 0.40, MONTA;                                                
+                                                                                
+   27 EMPAQUE QUEUE,6;                                                          
+   28     SEIZE: EMPAQUETADOR;                                                  
+   29     DELAY: RN(8, 8);                                                      
+   30     RELEASE: EMPAQUETADOR:DISPOSE;                                        
+                                                                                
+   31 MAQUI4 QUEUE,7;                                                           
+   32     SEIZE: MAQUINA4;                                                      
+   33     DELAY: EX(9, 9);                                                      
+   34     RELEASE: MAQUINA4:NEXT(MAQUI3);                                       
+                                                                                
+      END;                                                                      

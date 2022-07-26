@@ -1,0 +1,35 @@
+      BEGIN;                                                                    
+    1 PROJECT, PRACTICA, ANDRES, 18/7/2022;                                     
+    2 DISCRETE, 100, 2, 3;                                                      
+    3 TALLIES:1, TPO SISTEMA VE: 2, TPO SISTEMA CA: 3, TPO SISTEMA SB;          
+    4 COUNTERS: 1, ATENDIDOS VE: 2, ATENDIDOS CA: 3, ATENDIDOS SB;              
+    5 RESOURCES: 1, Ventanilla, 3:2, Cajero, 2:3, Servicio;                     
+    6 PARAMETERS: 1, 3: 2, 2: 3, 1: 4, 5;                                       
+    7 DSTAT: 1, NQ(1), COLA VENTANILLA: 2, NQ(2), COLA CAJERO:3, NQ(3), COLA SER
+      REPLICATE, 1, 0, 480;                                                     
+
+ ----- Line:  0009 File:  PRACTICA.EXP --------------------------------
+ DSTAT:1,NQ(1),COLA VENTANILLA:2,NQ(2),COLA CAJERO:3,NQ(3),COLA SER
+ REPLICATE,1,0,480;
+ ^^^^^^^^
+ WARNING: Field is split across two lines:
+          Possible missing punctuation at end of first line.
+ 0039:GGTLIN
+ ----------------------------------------------------------------------
+
+
+
+ ***** Line:  0009 File:  PRACTICA.EXP ********************************
+
+ DSTAT:1,NQ(1),COLA VENTANILLA:2,NQ(2),COLA CAJERO:3,NQ(3),COLA SER
+ REPLICATE,1,0,480;
+           ^
+ Invalid delimiter.
+ 0015:EEDSTS
+
+          Error scan suspended for this Element.
+ **********************************************************************
+
+
+
+      END;                                                                      

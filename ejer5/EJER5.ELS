@@ -1,0 +1,48 @@
+      BEGIN;                                                                    
+    1     PROJECT, EJERCICIO5, ANDRES, 7/7/2022;                                
+    2     DISCRETE, 100, 2, 3;                                                  
+    3     PARAMETERS: 1, 5:                                                     
+                      2, 3:                                                     
+                      3, 6:                                                     
+                      4, 2;                                                     
+    4     COUNTERS:   1, ATEND BODEGUERO:                                       
+                      2, ATEND PRACTICANTE;                                     
+    5     RESOURCES:  1, BODEGUERO:                                             
+                      2, PRACTICANTE:                                           
+                      3, REGISTRADOR;                                           
+    6     DSTAT:      1, NR(1), UTIL BODEGUERO:                                 
+                      2, NR(2), UTIL PRACTICANTE:                               
+                      3, NR(3), UTIL REGISTRADOR:                               
+                      4, NQ(1), COLA REGISTRO;                                  
+    7                 4, NQ(2), COLA BODEGUERO;                                 
+
+ ***** Line:  0017 File:  EJER5.EXP ***********************************
+
+
+ 4,NQ(2),COLA BODEGUERO;
+ ^
+ Invalid element name.
+ 0361:EXPMT 
+
+          Error scan suspended for this Element.
+ **********************************************************************
+
+
+
+    8                 4, NQ(3), COLA PRACTICANTE;                               
+
+ ***** Line:  0018 File:  EJER5.EXP ***********************************
+
+
+ 4,NQ(3),COLA PRACTICANTE;
+ ^
+ Invalid element name.
+ 0361:EXPMT 
+
+          Error scan suspended for this Element.
+ **********************************************************************
+
+
+
+    9     REPLICATE, 5, 0, 480;                                                 
+      END;                                                                      

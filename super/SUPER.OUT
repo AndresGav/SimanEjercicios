@@ -1,0 +1,40 @@
+
+
+
+                           SIMAN IV - License #9150435
+                                   ETS DE GIJON                   
+
+                         Summary for Replication 1 of 1
+  
+ Project:  EXAMEN                               Run execution date :  26/ 7/2022
+ Analyst:  ANDRES                               Model revision date:  27/ 7/2022
+  
+ Replication ended at time      : 480.0
+  
+                                 TALLY VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Observations
+ _______________________________________________________________________________
+  
+ TipoCPocosP             18.232     1.9747     .08229     167.82        123    
+ TipoCResto              147.84     .59952     4.1147     295.75         94    
+  
+                            DISCRETE-CHANGE VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Final Value 
+ _______________________________________________________________________________
+  
+ Carros                  59.891     .43957     .00000     80.000     80.000    
+ EsperaCajaE             .05200     5.1581     .00000     3.0000     .00000    
+ EsperaCajaN             57.101     .46847     .00000     79.000     78.000    
+  
+                                     COUNTERS
+  
+                     Identifier                Count   Limit
+                     _________________________________________
+  
+                     CantAtenCE                  123  Infinite
+                     CantAtenCN                   94  Infinite
+  
+ Run Time: 0 min(s)  1 sec(s)
+ Simulation run complete.
