@@ -1,0 +1,38 @@
+
+
+
+                           SIMAN IV - License #9150435
+                                   ETS DE GIJON                   
+
+                         Summary for Replication 1 of 1
+  
+ Project:  EJER10                               Run execution date :  26/ 7/2022
+ Analyst:  ANDRES                               Model revision date:   7/ 7/2022
+  
+ Replication ended at time      : 480.0
+  
+                                 TALLY VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Observations
+ _______________________________________________________________________________
+  
+ TIME_SYSTEM             28.646     .79858     .53035     84.940        419    
+  
+                            DISCRETE-CHANGE VARIABLES
+  
+ Identifier              Average   Variation   Minimum    Maximum   Final Value 
+ _______________________________________________________________________________
+  
+ NUM_COLAS_SERVIDOR      25.435     .93118     .00000     71.000     68.000    
+ UTIL_SERVIDOR           .94683     .23696     .00000     1.0000     1.0000    
+  
+                                     COUNTERS
+  
+                     Identifier                Count   Limit
+                     _________________________________________
+  
+                     PROBABILIDA1                230  Infinite
+                     PROBABILIDA2                204  Infinite
+  
+ Run Time: 0 min(s)  2 sec(s)
+ Simulation run complete.
