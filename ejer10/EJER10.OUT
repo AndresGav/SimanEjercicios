@@ -25,6 +25,8 @@
   
  NUM_COLAS_SERVIDOR      .00208     21.927     .00000     1.0000     .00000    
  UTIL_SERVIDOR           .07549     3.4995     .00000     1.0000     .00000    
+ NUM_COLAS_REGIS         .00546     13.495     .00000     1.0000     .00000    
+ UTIL_REGISTRADOR        .09096     3.1614     .00000     1.0000     .00000    
   
                                      COUNTERS
   
@@ -33,4 +35,5 @@
   
                      PROBABILIDA1                 16  Infinite
                      PROBABILIDA2                 15  Infinite
+                     CANT_PROGRAMAS               31  Infinite
  Simulation run complete.

@@ -5,21 +5,22 @@
     3     SEIZE: SERVIDOR;                                                      
     4     DELAY: EX(2,2);                                                       
     5     RELEASE: SERVIDOR;                                                    
-    6     BRANCH,1:                                                             
+    6     COUNT:3;                                                              
+    7     BRANCH,1:                                                             
               WITH, 0.5, REGIS1:                                                
               WITH, 0.5, REGIS2;                                                
                                                                                 
-    7 REGIS1  ASSIGN:A(2)=5;                                                    
-    8         COUNT:1;                                                          
-    9         ASSIGN:A(3)=3:NEXT(REGIS);                                        
-   10 REGIS2  ASSIGN:A(2)=6;                                                    
-   11         COUNT:2;                                                          
-   12         ASSIGN:A(3)=3:NEXT(REGIS);                                        
+    8 REGIS1  ASSIGN:A(2)=5;                                                    
+    9         COUNT:1;                                                          
+   10         ASSIGN:A(3)=3:NEXT(REGIS);                                        
+   11 REGIS2  ASSIGN:A(2)=6;                                                    
+   12         COUNT:2;                                                          
+   13         ASSIGN:A(3)=3:NEXT(REGIS);                                        
                                                                                 
-   13 REGIS QUEUE,2;                                                            
-   14     SEIZE: REGISTRADOR;                                                   
-   15     DELAY: EX(A(2),2);                                                    
-   16     RELEASE: REGISTRADOR;                                                 
-   17     TALLY:1, INT(1): DISPOSE;                                             
+   14 REGIS QUEUE,2;                                                            
+   15     SEIZE: REGISTRADOR;                                                   
+   16     DELAY: EX(A(2),2);                                                    
+   17     RELEASE: REGISTRADOR;                                                 
+   18     TALLY:1, INT(1): DISPOSE;                                             
                                                                                 
       END;                                                                      

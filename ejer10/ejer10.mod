@@ -5,6 +5,7 @@ SERV QUEUE,1;
     SEIZE: SERVIDOR;
     DELAY: EX(2,2);
     RELEASE: SERVIDOR;
+    COUNT:3;
     BRANCH,1:
         WITH, 0.5, REGIS1:
         WITH, 0.5, REGIS2;

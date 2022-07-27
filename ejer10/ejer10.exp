@@ -5,9 +5,12 @@ BEGIN;
     RESOURCES:  1, SERVIDOR:
                 2, REGISTRADOR;
     COUNTERS:   1, PROBABILIDA1:
-                2, PROBABILIDA2;
+                2, PROBABILIDA2:
+                3, CANT_PROGRAMAS;
     TALLIES:    1, TIME_SYSTEM;
     DSTAT:      1, NQ(1), NUM_COLAS_SERVIDOR:
-                2, NR(1), UTIL_SERVIDOR;
+                2, NR(1), UTIL_SERVIDOR:
+                3, NQ(2), NUM_COLAS_REGIS:
+                4, NR(2), UTIL_REGISTRADOR;
     REPLICATE,  1, 0, 480;
 END;
