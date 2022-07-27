@@ -16,23 +16,21 @@
  Identifier              Average   Variation   Minimum    Maximum   Observations
  _______________________________________________________________________________
   
- TIME_SYSTEM             28.646     .79858     .53035     84.940        419    
+ TIME_SYSTEM             2.6939     .75764     .36688     7.1088         31    
   
                             DISCRETE-CHANGE VARIABLES
   
  Identifier              Average   Variation   Minimum    Maximum   Final Value 
  _______________________________________________________________________________
   
- NUM_COLAS_SERVIDOR      25.435     .93118     .00000     71.000     68.000    
- UTIL_SERVIDOR           .94683     .23696     .00000     1.0000     1.0000    
+ NUM_COLAS_SERVIDOR      .00208     21.927     .00000     1.0000     .00000    
+ UTIL_SERVIDOR           .07549     3.4995     .00000     1.0000     .00000    
   
                                      COUNTERS
   
                      Identifier                Count   Limit
                      _________________________________________
   
-                     PROBABILIDA1                230  Infinite
-                     PROBABILIDA2                204  Infinite
-  
- Run Time: 0 min(s)  2 sec(s)
+                     PROBABILIDA1                 16  Infinite
+                     PROBABILIDA2                 15  Infinite
  Simulation run complete.
